@@ -1,0 +1,8 @@
+.tick {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: green; /* Màu của dấu tick */
+  font-size: 20px; /* Kích thước của dấu tick */
+  pointer-events: none; /* Ngăn chặn sự kiện click truyền xuống cho ảnh */
+}

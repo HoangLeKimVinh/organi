@@ -1,0 +1,151 @@
+.cart-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #dee2e6;
+}
+.listItemInCart .cart-box:last-child{
+    border: none;
+    padding: 0;
+}
+
+.listItemInCart .cart-box a{
+    color: #64748B;
+}
+
+.cart-box-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.cart-box-image{
+    box-shadow: 0 1px 10px #a5a5a51f,0 4px 5px #a5a5a51f,0 2px 4px -1px #a5a5a51f!important;
+}
+
+.dropdown-item{
+    padding: 4px 0;
+}
+
+/* CSS for Modal */
+.p-dialog {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Tab Header Styling */
+.p-tabview .p-tabview-nav li {
+  background-color: #7fad39;
+}
+
+.p-tabview .p-tabview-nav li.p-highlight {
+  background-color: #5c7d2f;
+}
+
+/* Tab Content Styling */
+.p-tabview .p-tabview-panel {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+/* Form Styling */
+.p-field {
+  margin-bottom: 20px;
+}
+
+/* Label Styling */
+.p-field label {
+  display: block;
+  font-weight: bold;
+  color: #7fad39;
+}
+
+/* Input Styling */
+.p-field input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #7fad39;
+  border-radius: 4px;
+}
+
+/* Button Styling */
+.p-field button {
+  background-color: #7fad39;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.p-field button:hover {
+  background-color: #5c7d2f;
+}/* CSS for Modal */
+.p-dialog {
+  font-family: 'Arial', sans-serif;
+  text-align: center; /* Center the contents of the modal */
+}
+
+/* Tab Header Styling */
+.p-tabview .p-tabview-nav li {
+  background-color: #7fad39;
+}
+
+.p-tabview .p-tabview-nav li.p-highlight {
+  background-color: #5c7d2f;
+}
+
+/* Tab Content Styling */
+.p-tabview .p-tabview-panel {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+/* Form Styling */
+.p-field {
+  margin-bottom: 20px;
+}
+
+/* Label Styling */
+.p-field label {
+  display: block;
+  font-weight: bold;
+  color: #7fad39;
+}
+
+/* Input Styling */
+.p-field input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #7fad39;
+  border-radius: 4px;
+}
+
+/* Button Styling */
+.p-field button {
+  background-color: #7fad39;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.p-field button:hover {
+  background-color: #5c7d2f;
+}
+
+.header_logo_login {
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.logo-image {
+  width: 140px; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
+
